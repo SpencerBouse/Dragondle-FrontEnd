@@ -1,0 +1,39 @@
+<section id="info-container" title="Health Remaining">
+  <div class="info-upper">
+    <div class="life-bar" [ngClass]="{'disable': state}">
+      @for (item of [].constructor(4); track item;) {
+        <img 
+          class="dragonball"
+          [ngClass]="{'lost-health': health<($index+1)}" 
+          [src]="'../../assets/svg/'+($index+1)+'starball.svg'" 
+          [alt]="($index+1)+ ' star dragonball'">
+      }
+      <p>{{health}} Health Remaining</p>
+    </div>
+    <div class="streaks-container">
+      <div>Current Streak:
+        <span>{{ currStreak }}</span>
+        &nbsp;
+      </div>
+      <div>Max Streak:
+        <span>{{ maxStreak }}</span>
+      </div>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="info-lower">
+    <img class= logo src="../../assets/spinner/4stars.svg">
+    <mat-card class="hints-container" *ngIf="shownHints.length">
+      <mat-card-content>
+        <p class="title">Hints:</p>
+        <mat-divider></mat-divider>
+        <div>
+          @for (hint of shownHints; track hint) {
+            <p><mat-icon aria-hidden="false" aria-label="arrow right" fontIcon="subdirectory_arrow_right"></mat-icon> {{ hint.hint }}</p>
+          }
+        </div>
+      </mat-card-content>
+    </mat-card>
+    <div *ngIf="state === 'lost'" class="gameover">GAME OVER</div>
+  </div>
+</section>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="41.879002mm"
+   height="41.879002mm"
+   viewBox="0 0 41.879002 41.879002"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="7stars.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="7stars.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.7401401"
+     inkscape:cx="79.007736"
+     inkscape:cy="79.14142"
+     inkscape:window-width="1440"
+     inkscape:window-height="830"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <marker
+       markerWidth="200"
+       markerHeight="190.95464"
+       refX="14.137464"
+       refY="13.498071"
+       orient="0"
+       id="marker3-4-6-2"
+       viewBox="0 0 28.274927 26.996142"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:#eb1400;fill-opacity:1;stroke:#e61302;stroke-width:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="path8-9-7-6-6"
+         d="m 22.70557,26.96724 c -0.643236,0.457628 -7.89854,-4.670618 -8.687373,-4.679471 -0.789362,-0.0089 -8.1453394,4.974908 -8.7793316,4.50459 C 4.6048933,26.321997 7.2401171,17.837101 7.0036671,17.083946 6.7672171,16.330769 -0.24480166,10.874583 0.00660084,10.126283 0.25799888,9.3779784 9.141971,9.2622677 9.7852067,8.8046369 10.428431,8.3470261 13.450743,-0.00785093 14.240105,5.5373239e-6 15.029467,0.00781071 17.884828,8.4212689 18.518818,8.8915955 c 0.633969,0.4703644 9.513898,0.7629203 9.750348,1.5160775 0.236453,0.753159 -6.88282,6.068674 -7.134212,6.816945 -0.251395,0.748316 2.214367,9.284034 1.571144,9.741641 z" />
+    </marker>
+  </defs>
+  <g
+     id="g1"
+     inkscape:label="g1">
+    <circle
+       style="display:inline;fill:#ff7901;fill-opacity:1;stroke:#fdfae0;stroke-width:1.69045;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path4-6-7-6"
+       cx="178.89555"
+       cy="114.33722"
+       r="20.09408"
+       inkscape:label="base"
+       transform="translate(-157.95625,-93.397914)" />
+    <g
+       id="g3"
+       inkscape:label="7stars"
+       transform="matrix(0.59003417,0,0,0.59003417,-4.6554078,-8.119895)"
+       style="display:inline"
+       inkscape:export-filename="7stars.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       sodipodi:insensitive="true">
+      <path
+         style="display:inline;fill:#eb1400;fill-opacity:1;stroke:#e61302;stroke-width:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="path8-9-3"
+         d="m 47.286912,54.969249 c -0.286678,0.207716 -3.560116,-2.063237 -3.914129,-2.06361 -0.354014,-3.39e-4 -3.63279,2.262886 -3.918926,2.054474 -0.286102,-0.208462 0.862069,-4.023461 0.753075,-4.360239 -0.108977,-0.336777 -3.274692,-2.755721 -3.164918,-3.092261 0.109824,-0.33654 4.092915,-0.423433 4.379543,-0.63115 0.286661,-0.207717 1.608907,-3.965991 1.96292,-3.965567 0.353979,4.24e-4 1.667497,3.761748 1.953633,3.97016 0.286102,0.208445 4.269074,0.304592 4.378051,0.641387 0.108977,0.336777 -3.062348,2.748332 -3.172121,3.084855 -0.109824,0.336557 1.029516,4.154251 0.742889,4.361967 z"
+         inkscape:transform-center-y="-0.49518621" />
+      <path
+         sodipodi:type="star"
+         style="fill:none;stroke:none;stroke-width:0.172357;stroke-dasharray:none;marker-start:url(#marker3-4-6-2);marker-mid:url(#marker3-4-6-2);paint-order:fill markers stroke"
+         id="path3"
+         inkscape:flatsided="true"
+         sodipodi:sides="6"
+         sodipodi:cx="651.3269"
+         sodipodi:cy="277.78571"
+         sodipodi:r1="43.924587"
+         sodipodi:r2="38.03981"
+         sodipodi:arg1="0.52359878"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 689.36671,299.748 -38.03981,21.96229 -38.0398,-21.96229 0,-43.92459 38.0398,-21.96229 38.03981,21.96229 z"
+         transform="matrix(0.39332764,0,0,0.39332764,-212.65253,-60.090986)"
+         inkscape:transform-center-x="1.7422789e-06" />
+    </g>
+  </g>
+</svg>

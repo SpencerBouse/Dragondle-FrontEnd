@@ -1,0 +1,37 @@
+<section id="app">
+  <mat-card id="page-content">
+    <mat-card-header id="header">
+      <mat-card-title class="title">
+        <p class="mat-headline-4">
+          <span>Drag</span>
+          <span class="icon-container"><img src="../assets/svg/DB_icon.svg"></span>
+          <span>ndle</span>
+        </p>
+        <a href="https://www.gamedle.wtf/" target="_blank" class="link">inspired by gamedle</a>        
+      </mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content id="upper-content">
+      <app-image 
+        [character]="character"
+        [health]="health"
+        [state]="state"></app-image>
+      <app-info 
+        [character]="character" 
+        [health]="health"
+        [state]="state"></app-info>
+    </mat-card-content>
+
+    <mat-card-content id="lower-content">
+      <app-form #appForm
+        *ngIf="characters"
+        [character]="character"
+        [characters]="characters"
+        [state]="state"
+        (guessEvent)="submitGuess($event)"
+        (goAgainEvent)="goAgain()"
+        (nextEvent)="nextCharacter()"></app-form>
+    </mat-card-content>
+    <mat-card-footer id="footer"></mat-card-footer>
+  </mat-card>
+</section>

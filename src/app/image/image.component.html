@@ -1,0 +1,43 @@
+<section id="image-section">
+  <div class="image-container">
+    <img
+      *ngIf="character"
+      class="blur{{health}}" 
+      [src]="character.image"
+      (loading)="loading = true"
+      (load)="loading = false">
+  
+    <div *ngIf="loading" class="spinner-container">
+      <div class="spinner">
+        <div class="spinner-ball deg0">
+          <img class="stars" src="../../assets/spinner/1stars.svg">
+          <img class="top" src="../../assets/spinner/top.svg">
+        </div>
+        <div class="spinner-ball deg60">
+          <img class="stars" src="../../assets/spinner/2stars.svg">
+          <img class="top" src="../../assets/spinner/top.svg">
+        </div>
+        <div class="spinner-ball deg120">
+          <img class="stars" src="../../assets/spinner/3stars.svg">
+          <img class="top" src="../../assets/spinner/top.svg">
+        </div>
+        <div class="spinner-ball deg180">
+          <img class="stars" src="../../assets/spinner/4stars.svg">
+          <img class="top" src="../../assets/spinner/top.svg">
+        </div>
+        <div class="spinner-ball deg240">
+          <img class="stars" src="../../assets/spinner/5stars.svg">
+          <img class="top" src="../../assets/spinner/top.svg">
+        </div>
+        <div class="spinner-ball deg300">
+          <img class="stars" src="../../assets/spinner/6stars.svg">
+          <img class="top" src="../../assets/spinner/top.svg">
+        </div>
+        <div class="spinner-ball">
+          <img class="stars" src="../../assets/spinner/7stars.svg">
+          <img class="top" src="../../assets/spinner/top.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

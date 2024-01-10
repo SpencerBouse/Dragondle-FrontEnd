@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="41.879002mm"
+   height="41.879002mm"
+   viewBox="0 0 41.879002 41.879002"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       markerWidth="200"
+       markerHeight="190.95464"
+       refX="14.137464"
+       refY="13.498071"
+       orient="0"
+       id="marker3"
+       viewBox="0 0 28.274927 26.996142"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:#eb1400;fill-opacity:1;stroke:#e61302;stroke-width:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="path8-9-7"
+         d="m 22.70557,26.96724 c -0.643236,0.457628 -7.89854,-4.670618 -8.687373,-4.679471 -0.789362,-0.0089 -8.1453394,4.974908 -8.7793316,4.50459 C 4.6048933,26.321997 7.2401171,17.837101 7.0036671,17.083946 6.7672171,16.330769 -0.24480166,10.874583 0.00660084,10.126283 0.25799888,9.3779784 9.141971,9.2622677 9.7852067,8.8046369 10.428431,8.3470261 13.450743,-0.00785093 14.240105,5.5373239e-6 15.029467,0.00781071 17.884828,8.4212689 18.518818,8.8915955 c 0.633969,0.4703644 9.513898,0.7629203 9.750348,1.5160775 0.236453,0.753159 -6.88282,6.068674 -7.134212,6.816945 -0.251395,0.748316 2.214367,9.284034 1.571144,9.741641 z" />
+    </marker>
+  </defs>
+  <g
+     id="g1">
+    <circle
+       style="display:inline;fill:#ff7901;fill-opacity:1;stroke:#fdfae0;stroke-width:1.69045;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path4-6-7-6"
+       cx="178.89555"
+       cy="114.33722"
+       r="20.09408"
+       transform="translate(-157.95625,-93.397914)" />
+    <g
+       id="layer8"
+       style="display:inline"
+       transform="translate(1.2717972e-5)">
+      <path
+         style="fill:none;stroke:none;stroke-width:0.04;stroke-opacity:1;marker-start:url(#marker3);marker-mid:url(#marker3);paint-order:fill markers stroke"
+         id="path5"
+         d="m 20.939295,28.018947 -6.131152,-10.619466 12.262303,-1e-6 z" />
+    </g>
+  </g>
+</svg>

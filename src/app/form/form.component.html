@@ -1,0 +1,48 @@
+<section id="form-section">
+  <div *ngIf="state === null" class="form-container">
+    <form [formGroup]="characterForm" (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="outline" class="character-input">
+        <input type="text"
+            placeholder="Search for Character"
+            aria-label="Character Name"
+            required=""
+            matInput
+            [formControl]="characterForm.controls['charName']"
+            [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete">
+          @for (character of filteredChars | async; track character) {
+            <mat-option [value]="character.name">{{character.name}}</mat-option>
+          }
+        </mat-autocomplete>
+        @if (characterForm.controls['charName'].hasError('required')) {
+          <mat-error>Name is <strong>required</strong></mat-error>
+        }
+      </mat-form-field>
+      
+      <span class="btn-container">
+        <button mat-raised-button color="primary" class="guess-btn" type="submit">Guess</button>  
+        <button mat-raised-button color="warn" class="skip-btn" type="button" (click)="onSubmit(true)">Skip</button>
+      </span>
+    </form>
+  </div>
+
+  <div *ngIf="state === 'win'" class="completed-form">
+    <p class="win">Correct!</p>
+    <div>
+      <span>&nbsp;{{ character.name }}</span>
+      <button mat-raised-button color="primary" class="next-btn" type="button" (click)="nextEvent.emit()">Next</button>  
+    </div>
+  </div>
+
+  <div *ngIf="state === 'lost'" class="completed-form">
+    <p class="lost">Answer:</p>
+    <div>
+      <span>&nbsp;{{ character.name }}</span>
+      <button mat-raised-button color="primary" class="next-btn" type="button" (click)="goAgainEvent.emit()">Play Again?</button>  
+    </div>
+  </div>
+</section>
+
+<div>
+  <!-- previous guesses -->
+</div>

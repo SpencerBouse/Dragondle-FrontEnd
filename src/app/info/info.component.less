@@ -1,0 +1,145 @@
+#info-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 2em;
+}
+
+.life-bar {
+  position: relative;
+  margin-bottom: 1em;
+  .dragonball {
+    width: 3em;
+    margin-right: .5em;
+  }
+  .lost-health {
+    filter: grayscale(100%)
+  }
+  p{
+    font-size: 13px;
+    color: #999999;
+  }
+}
+.gameover {
+  font-family: 'Righteous', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+  background-color: lighten(#EB1400, 10%);
+  border-radius: 5px;
+
+  margin-top: auto;
+  margin-bottom: .5em;
+}
+
+.info-lower {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  .logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: grayscale(1);
+    opacity: 7%;
+  }
+}
+
+.streaks-container {
+  margin-bottom: 1em;
+  div {
+    display: inline;
+  }
+  span {
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+  }
+}
+
+.hints-container {
+  margin-top: 1em;
+  border: 0;
+  box-shadow: 0;
+  background-color: #303030;
+  color: darken(white, 20%);
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  div {
+    margin-left: 1em;
+  }
+  p {
+    position: relative;
+  }
+  mat-icon {
+    font-size: 14px;
+    position: relative;
+    top: 11px;
+    left: 5px;
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #info-container {
+    margin-left: 0;
+    display: block;
+    height: 100%;
+  }
+  .info-upper{
+    height: 20%;
+    margin-bottom: .5em;
+  }
+  .life-bar {
+    margin-bottom: .5em;
+    display: inline-block;
+    width: 50%;
+    .dragonball {
+      width: 2em;
+    }
+  }
+  .streaks-container {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 50%;
+    font-size: medium;
+    div {
+      display: block;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  .info-lower {
+    height: 80%;
+  }
+  .hints-container{
+    margin-top: .5em;
+    mat-card-content {
+      padding: 0.75em;
+    }
+    .title {
+      font-size: 16px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  .gameover{
+    font-size: 1.5em;
+    margin-top: .5em;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .life-bar {
+    .dragonball {
+      width: 1.5em;
+    }
+  }
+}
