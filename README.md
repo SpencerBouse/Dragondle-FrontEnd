@@ -1,10 +1,8 @@
-# Dragondle App (WIP)
-Dragon Ball character -dle type game, inspired by gamedle
+# Dragondle Frontend (WIP)
+Dragon Ball character -dle type game, inspired by [Gamedle](https://www.gamedle.wtf/) 
 made with <b>Angular + Angular Material + TypeScript</b>
-<br>
-For use with 
-<br>
-Gamedle: https://www.gamedle.wtf/
+
+For use with [Dragondle-Server](https://github.com/SpencerBouse/Dragondle-Server)
 <hr>
 
 ![Dragondle_app](https://github.com/SpencerBouse/Dragondle/assets/2532755/b8b16281-4bec-410c-aa90-9d35ac849338)
@@ -13,7 +11,10 @@ Gamedle: https://www.gamedle.wtf/
 
 ```
 git clone ...
-cd .\Dragondle\frontend\
+cd .\Dragondle-FrontEnd\
 npm install
 ng serve
 ```
+
+<hr>
+All art (excluding svgs) is sourced from the dragon ball anime or manga
